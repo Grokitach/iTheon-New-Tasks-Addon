@@ -1,4 +1,4 @@
-# iTheon's New Tasks Addon v0.2.1
+# iTheon's New Tasks Addon v0.4.1a
 
 This mod adds several new repeatable quests to Stalker Anomaly that bring some fresh air to the vanilla set of quests that are very similar to each other.<br>
 Note: "During the night" refers to 10 PM - 3 AM.<br>
@@ -7,6 +7,7 @@ You need the modified exes by Demonized for some the quest dialogs to be registe
 
 Added questlines (much longer than the radiant tasks described below):
 - The Living Fire - questline starts at Bar and is taken from Snitch in a similar manner as an ordinary task. Prerequisites: finished Living Legend and turned of the Miracle Machine (DLTX mandatory for the dialogs to get registered)
+- Mystery of the Swamps - continues the story of some other tasks. It has some hidden prerequisites that aren't hard to meet and the player will be guided towards the quest giver afterwards through some SMS and dialogs once it becomes available.
 
 Currently available quests with short descriptions (you'll find more in-depth story behind when talking with NPCs):
 
@@ -56,6 +57,15 @@ Cashier:
 
 Hawaiian:
 - The Keepsake - a stalker has lost his actual brother during their last northern contract before leaving the Zone for good. He wants the contract target back as a memento
+
+Pilot:
+- Pilot's PDA - search a stash containing Pilot's PDA in Sarcophagus
+
+Griffin:
+- Monolith Plans - search a stash containing Monolith battle plans (limited to norther maps)
+
+Loki:
+- Freedom Intel Documents - retrieve the intel documents hidden by one of the Freedom's scouting parties (limited to northern maps) 
  
 **From random NPCs:**
 
@@ -69,6 +79,21 @@ Contributors:<br>
 [JohnMcClane161](https://github.com/JohnMcClane161) - Russian translation and typos fix<br>
 El_Rosarino - Spanish translation<br>
 [Thundard](https://github.com/Thundard) - French translation
+
+v0.4.1a
+- Fixed a typo in utils that caused northern map restrictors for intercept task to be omitted 
+
+v0.4.1
+- Add invincibility particles to MoTS Baba Yaga
+- Add sound hint to Dead Night. Slightly reduce script firing radius to prevent insta-swarm by enemies
+- Fix MoTS Barman dialog logic. Create stash task framework.
+- Added new stash tasks for Loki, Pilot and Griffin
+
+v0.4.0
+- Address many TODOs and fix softlocks in The Living Fire
+
+v0.3.0
+- Added Mystery of the Swamps questline
 
 v0.2.1
 - Fix minor bugs in The Living Fire for vanilla Anomaly
