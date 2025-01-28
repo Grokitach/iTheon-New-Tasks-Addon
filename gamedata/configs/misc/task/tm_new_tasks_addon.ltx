@@ -411,7 +411,7 @@ status_functor = baba_yaga_task_status_functor
 
 on_job_descr = %=dispatch_nta_task_details(bar_visitors_barman_stalker_trader_task_baba_yaga)%
 on_init = %+bar_visitors_barman_stalker_trader_task_baba_yaga_started =baba_yaga_cleanup()%
-on_complete = %=complete_task_inc_goodwill(75:stalker) =reward_random_money(8000:11000) -bar_visitors_barman_stalker_trader_task_baba_yaga_started +bar_visitors_barman_stalker_trader_task_baba_yaga_completed =mystery_of_the_swamps_save_dependency_time()%
+on_complete = %=complete_task_inc_goodwill(75:stalker) =reward_random_money(8000:11000) =reward_item(itm_artefactskit) -bar_visitors_barman_stalker_trader_task_baba_yaga_started +bar_visitors_barman_stalker_trader_task_baba_yaga_completed =mystery_of_the_swamps_save_dependency_time()%
 on_fail = %=fail_task_dec_goodwill(50:stalker) -bar_visitors_barman_stalker_trader_task_baba_yaga_started%
 
 [mar_smart_terrain_base_stalker_leader_marsh_task_house_of_horrors]
